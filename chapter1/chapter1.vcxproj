@@ -64,7 +64,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="exer1_3.cpp" />
+    <ClCompile Include="exer1_4.cpp" />
+    <ClCompile Include="exer1_5.cpp" />
+    <ClCompile Include="page12.cpp" />
+    <ClCompile Include="page14.cpp" />
+    <ClCompile Include="page17.cpp" />
     <ClCompile Include="page9.cpp" />
+    <ClCompile Include="page_16.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
