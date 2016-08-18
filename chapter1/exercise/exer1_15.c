@@ -1,11 +1,9 @@
-/* Page 12 e-book, page 9 hard copy. variable and arithmatic expressions */
-
-
-/* Print Fahrenhite - Celcius table
-     for fahr = 0, 20,..... 300*/
-
 #include <stdio.h>
 
+int FtoC(int fahr){
+  int celsius = 5 * (fahr - 32) / 9;
+  return celsius;
+}
 
 int main(){
 
@@ -19,7 +17,7 @@ int main(){
 	fahr = lower;
 
 	while (fahr <= upper){
-		celsius = 5 * (fahr - 32) / 9;
+		celsius = FtoC(fahr);
 		printf("%d\t%d\n",fahr,celsius);
 		fahr = fahr + step;
 	}

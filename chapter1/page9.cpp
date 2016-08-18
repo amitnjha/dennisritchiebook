@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
- * Hello world example, page 9 e book, page 6 2nd ed 
+ * Hello world example, page 9 e book, page 6 2nd ed
 */
 
-int main9(){
+int main(){
 
 	printf("Hello world\n");
 	return 0;

@@ -5,7 +5,7 @@
 for fahr = 0, 20,..... 300 floating point conversion*/
 #include <stdio.h>
 
-int main14(){
+int main(){
 
 	float fahr, celsius;
 	float lower, upper, step;
@@ -24,5 +24,3 @@ int main14(){
 
 	return 0;
 }
-
-
